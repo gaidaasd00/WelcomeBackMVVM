@@ -29,17 +29,18 @@ class LoginViewController: UIViewController {
             if let error = error {
                 print(error)
             } else {
-                self?.goToHomePage()
+                print("Error")
+//                self?.goToHomePage()
             }
         }
     }
     
-    private func goToHomePage() {
-        let controller = storyboard?.instantiateViewController(
-            withIdentifier: "HomeViewController") as! HomeViewController
-        present(controller, animated: true, completion: nil)
-    }
-    
+//    private func goToHomePage() {
+//        let controller = storyboard?.instantiateViewController(
+//            withIdentifier: "HomeViewController") as! HomeViewController
+//        present(controller, animated: true, completion: nil)
+//    }
+//
     //MARK: IBAction
     
     @IBAction func loginButtonPress(_ sender: Any) {
