@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CCE3F5BA2901B6CC0000233F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5B92901B6CC0000233F /* AppDelegate.swift */; };
 		CCE3F5BC2901B6CC0000233F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */; };
-		CCE3F5BE2901B6CC0000233F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5BD2901B6CC0000233F /* ViewController.swift */; };
 		CCE3F5C12901B6CC0000233F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3F5BF2901B6CC0000233F /* Main.storyboard */; };
 		CCE3F5C32901B6D20000233F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE3F5C22901B6D20000233F /* Assets.xcassets */; };
 		CCE3F5C62901B6D20000233F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3F5C42901B6D20000233F /* LaunchScreen.storyboard */; };
+		CCE3F5CE2901B7070000233F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5CD2901B7070000233F /* NetworkService.swift */; };
+		CCE3F5D02901B74C0000233F /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5CF2901B74C0000233F /* ObservableObject.swift */; };
+		CCE3F5D22901B7720000233F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5D12901B7720000233F /* User.swift */; };
+		CCE3F5D42901B7950000233F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5D32901B7950000233F /* LoginViewModel.swift */; };
+		CCE3F5D62901B7D30000233F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5D52901B7D30000233F /* LoginViewController.swift */; };
+		CCE3F5D82901B82F0000233F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5D72901B82F0000233F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCE3F5B62901B6CC0000233F /* WelcomeBackMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeBackMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE3F5B92901B6CC0000233F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCE3F5BD2901B6CC0000233F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCE3F5C02901B6CC0000233F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCE3F5C22901B6D20000233F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE3F5C52901B6D20000233F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE3F5C72901B6D20000233F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE3F5CD2901B7070000233F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CCE3F5CF2901B74C0000233F /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		CCE3F5D12901B7720000233F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CCE3F5D32901B7950000233F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CCE3F5D52901B7D30000233F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CCE3F5D72901B82F0000233F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				CCE3F5B92901B6CC0000233F /* AppDelegate.swift */,
 				CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */,
-				CCE3F5BD2901B6CC0000233F /* ViewController.swift */,
+				CCE3F5CD2901B7070000233F /* NetworkService.swift */,
+				CCE3F5CF2901B74C0000233F /* ObservableObject.swift */,
+				CCE3F5D12901B7720000233F /* User.swift */,
+				CCE3F5D32901B7950000233F /* LoginViewModel.swift */,
+				CCE3F5D52901B7D30000233F /* LoginViewController.swift */,
+				CCE3F5D72901B82F0000233F /* HomeViewController.swift */,
 				CCE3F5BF2901B6CC0000233F /* Main.storyboard */,
 				CCE3F5C22901B6D20000233F /* Assets.xcassets */,
 				CCE3F5C42901B6D20000233F /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCE3F5BE2901B6CC0000233F /* ViewController.swift in Sources */,
+				CCE3F5D62901B7D30000233F /* LoginViewController.swift in Sources */,
+				CCE3F5D02901B74C0000233F /* ObservableObject.swift in Sources */,
+				CCE3F5D22901B7720000233F /* User.swift in Sources */,
+				CCE3F5D82901B82F0000233F /* HomeViewController.swift in Sources */,
 				CCE3F5BA2901B6CC0000233F /* AppDelegate.swift in Sources */,
+				CCE3F5CE2901B7070000233F /* NetworkService.swift in Sources */,
 				CCE3F5BC2901B6CC0000233F /* SceneDelegate.swift in Sources */,
+				CCE3F5D42901B7950000233F /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.alexGaida.WelcomeBackMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +353,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.alexGaida.WelcomeBackMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
