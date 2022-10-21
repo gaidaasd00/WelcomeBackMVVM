@@ -67,6 +67,59 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		CC241D7C2902E88500DA9DE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */,
+				CCE3F5B92901B6CC0000233F /* AppDelegate.swift */,
+				CCE3F5C72901B6D20000233F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC241D7D2902E8B900DA9DE3 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5C22901B6D20000233F /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CC241D7E2902E8D400DA9DE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5D12901B7720000233F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC241D7F2902E8E500DA9DE3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5CD2901B7070000233F /* NetworkService.swift */,
+				CCE3F5CF2901B74C0000233F /* ObservableObject.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC241D802902E90B00DA9DE3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5BF2901B6CC0000233F /* Main.storyboard */,
+				CCE3F5C42901B6D20000233F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CC241D812902E97D00DA9DE3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC241D782902E37F00DA9DE3 /* LoginView */,
+				CC241D792902E38E00DA9DE3 /* HomeView */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		CCE3F5AD2901B6CC0000233F = {
 			isa = PBXGroup;
 			children = (
@@ -86,17 +139,12 @@
 		CCE3F5B82901B6CC0000233F /* WelcomeBackMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				CCE3F5B92901B6CC0000233F /* AppDelegate.swift */,
-				CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */,
-				CCE3F5CD2901B7070000233F /* NetworkService.swift */,
-				CCE3F5CF2901B74C0000233F /* ObservableObject.swift */,
-				CCE3F5D12901B7720000233F /* User.swift */,
-				CC241D792902E38E00DA9DE3 /* HomeView */,
-				CC241D782902E37F00DA9DE3 /* LoginView */,
-				CCE3F5BF2901B6CC0000233F /* Main.storyboard */,
-				CCE3F5C22901B6D20000233F /* Assets.xcassets */,
-				CCE3F5C42901B6D20000233F /* LaunchScreen.storyboard */,
-				CCE3F5C72901B6D20000233F /* Info.plist */,
+				CC241D812902E97D00DA9DE3 /* ViewController */,
+				CC241D7F2902E8E500DA9DE3 /* Services */,
+				CC241D802902E90B00DA9DE3 /* Storyboard */,
+				CC241D7E2902E8D400DA9DE3 /* Models */,
+				CC241D7D2902E8B900DA9DE3 /* Resourses */,
+				CC241D7C2902E88500DA9DE3 /* Supporting Files */,
 			);
 			path = WelcomeBackMVVM;
 			sourceTree = "<group>";
