@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC241D772902DFBA00DA9DE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC241D762902DFBA00DA9DE3 /* HomeViewController.swift */; };
+		CC241D7B2902E3A900DA9DE3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC241D7A2902E3A900DA9DE3 /* HomeViewModel.swift */; };
 		CCE3F5BA2901B6CC0000233F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5B92901B6CC0000233F /* AppDelegate.swift */; };
 		CCE3F5BC2901B6CC0000233F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */; };
 		CCE3F5C12901B6CC0000233F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3F5BF2901B6CC0000233F /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC241D762902DFBA00DA9DE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC241D7A2902E3A900DA9DE3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CCE3F5B62901B6CC0000233F /* WelcomeBackMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeBackMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE3F5B92901B6CC0000233F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE3F5BB2901B6CC0000233F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC241D782902E37F00DA9DE3 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3F5D52901B7D30000233F /* LoginViewController.swift */,
+				CCE3F5D32901B7950000233F /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		CC241D792902E38E00DA9DE3 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				CC241D762902DFBA00DA9DE3 /* HomeViewController.swift */,
+				CC241D7A2902E3A900DA9DE3 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		CCE3F5AD2901B6CC0000233F = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +91,8 @@
 				CCE3F5CD2901B7070000233F /* NetworkService.swift */,
 				CCE3F5CF2901B74C0000233F /* ObservableObject.swift */,
 				CCE3F5D12901B7720000233F /* User.swift */,
-				CCE3F5D32901B7950000233F /* LoginViewModel.swift */,
-				CCE3F5D52901B7D30000233F /* LoginViewController.swift */,
+				CC241D792902E38E00DA9DE3 /* HomeView */,
+				CC241D782902E37F00DA9DE3 /* LoginView */,
 				CCE3F5BF2901B6CC0000233F /* Main.storyboard */,
 				CCE3F5C22901B6D20000233F /* Assets.xcassets */,
 				CCE3F5C42901B6D20000233F /* LaunchScreen.storyboard */,
@@ -151,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE3F5D62901B7D30000233F /* LoginViewController.swift in Sources */,
+				CC241D7B2902E3A900DA9DE3 /* HomeViewModel.swift in Sources */,
 				CCE3F5D02901B74C0000233F /* ObservableObject.swift in Sources */,
 				CCE3F5D22901B7720000233F /* User.swift in Sources */,
+				CC241D772902DFBA00DA9DE3 /* HomeViewController.swift in Sources */,
 				CCE3F5BA2901B6CC0000233F /* AppDelegate.swift in Sources */,
 				CCE3F5CE2901B7070000233F /* NetworkService.swift in Sources */,
 				CCE3F5BC2901B6CC0000233F /* SceneDelegate.swift in Sources */,
